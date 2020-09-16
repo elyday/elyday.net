@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Lars Riße
+    tagline: Junior PHP Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: me@elyday.net
+    #phone: 012 345 6789
+    website: lars.risse.me #do not add http://
+    linkedin: lars-riße-8703b812a
+    xing: Lars_Risse4
+    github: elyday
+    telegram: elyday # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@urpgb'
+    stack-overflow: 4334204/lars # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: German
+        level: Muttersprache
+
+      - idiom: Englisch
+        level: Grundkenntnisse
+
+    interests:
+      - item: Radfahren
+        link:
+
+      - item: Politik
+        link:
+
+      - item: Fußball
+        link:
+
+      - item: Gaming
+        link:
+
+career-profile:
+    title: Willkommen
+    summary: |
+      Abermals habe ich die Webseite unter dieser Domain überarbeitet. Diese Webseite soll einen Einblick in meine Fähigkeiten geben und einen Überblick über meine bisherige Berufliche Laufbahn geben.
+education:
+    - degree: Mittlere Reife
+      university: Realschule an der Josefskirche
+      time: 2010 - 2016
+      details: 
+experiences:
+    - role: Junior Backend Developer
+      time: 2019 - Present
+      company: chargecloud GmbH, Köln, Deutschland
+      details: |
+        Die chargecloud GmbH biete eine Softwarelösung für die Abrechnung von Ladeinfrastruktur für Elektroautos an. Gemeinsam mit einem Entwicklerteam entwickeln wir die Softwarelösung ständig weiter und passen sie immer wieder auf die neuen Marktgegebenheiten an.
+
+    - role: Auszubildender Fachinformatiker - Fachrichtung Anwendungsentwicklung
+      time: 2016 - 2019
+      company: TEVARIS, Mönchengladbach, Deutschland
+      details: |
+        In dieser Firma habe ich meine Ausbildung zum Fachinformatiker - Fachrichtung Anwendungsentwicklung mit einer Gesamtpunktzahl von 85 Punkten (gut) abgeschlossen. Meine Abschlussarbeit hatte die Erstellung einer Aufgabenverwaltung innerhalb eines Tumordokumentationssystems zum Inhalt.
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills
+
+    toolset:
+      - name: PHP
+        level: 58%
+
+      - name: HTML
+        level: 44%
+
+      - name: JAVA
+        level: 39%
+
+      - name: SQL
+        level: 25%
+
+      - name: CODEIGNITER
+        level: 23%
+
+      - name: WSC Plugins
+        level: 14%
+
+      - name: Angular
+        level: 10%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
