@@ -4,12 +4,12 @@
 
 sidebar:
     about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: true # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Lars Riße
     tagline: Junior PHP Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: lars.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: me@elyday.net
@@ -44,12 +44,12 @@ sidebar:
         link:
 
       - item: Gaming
-        link:
+        link: 
 
 career-profile:
     title: Willkommen
     summary: |
-      Abermals habe ich die Webseite unter dieser Domain überarbeitet. Diese Webseite soll einen Einblick in meine Fähigkeiten geben und einen Überblick über meine bisherige Berufliche Laufbahn geben.
+      Diese Webseite soll meine bisherige berufliche Laufbahn darstellen und einen Einblick in meine Interessen bieten. Ebenso sind hier auch einige sonstige Informationen über mich und über die Projekte, bei denen ich mitgewirkt habe, vorhanden.
 education:
     - degree: Mittlere Reife
       university: Realschule an der Josefskirche
@@ -67,32 +67,26 @@ experiences:
       company: TEVARIS, Mönchengladbach, Deutschland
       details: |
         In dieser Firma habe ich meine Ausbildung zum Fachinformatiker - Fachrichtung Anwendungsentwicklung mit einer Gesamtpunktzahl von 85 Punkten (gut) abgeschlossen. Meine Abschlussarbeit hatte die Erstellung einer Aufgabenverwaltung innerhalb eines Tumordokumentationssystems zum Inhalt.
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects or open source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+projects:
+    title: Projects
+    intro: >
+      Bei den hier aufgelisteten Projekten habe ich in irgendeiner Funktion mitgewirkt.
+    assignments:
+      - title: World Gaming Club
+        link: "https://wgc.li"
+        tagline: "Bei diesem Projekt wirke ich schon seit langer Zeit mit. Anfangs habe ich mich um die Weiterentwicklung der Hintergrundsysteme und der Webseite gekümmert, jetzt kümmere ich mich hauptsächlich nur noch um die Serverinfrastruktur."
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Comment Server
+        link: "https://github.com/elyday/comment-server"
+        tagline: "Comment Server hatte als Ziel eine Schnittstelle für die Verwaltung, Erstellung und Moderierung von Kommentaren eines Blogs zu werden. Die Idee dazu entstand, als ich meinen ersten Jekyll basierten Blog aufsetzte und überlegte wie ich eine Kommentar Funktionalität in Jekyll implementieren kann. Da kam mir die Idee eine Schnittstelle außerhalb des Blogs aufzubauen und der Comment Server war geboren. Ob das Projekt fortgesetzt wird bleibt abzuwarten."
 
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Grades Management (offline)
+        link: ""
+        tagline: "Grades Management ist ein Open Source Projekt zum Verwalten von Schülern, Klassen und vergebenen Noten durch Lehrer. Dieses Projekt entstand innerhalb der Berufsausbildung zum Fachinformatiker für Anwendungsentwicklung im Rahmen des Berufsschulunterrichts."
 
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: San Fierro Roleplay User Control Panel (offline)
+        link: ""
+        tagline: "Das User Control Panel war eine Schnittstelle zwischen Benutzern und Server. Hier konnten Nutzer ihre Charaktere verwalten und Support erhalten. Ebenso waren administrative Funktionen eingebaut."
 
 # publications:
 #     title: Publications
@@ -142,4 +136,5 @@ skills:
         level: 10%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>
+    This Website is published by <a href="https://pages.github.com" target="_blank">GitHub Pages</a>.
