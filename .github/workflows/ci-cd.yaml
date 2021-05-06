@@ -1,0 +1,24 @@
+on: ["push"]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Prepare Ruby and Install Gems
+        uses: ruby/setup-ruby@v1
+        with: 
+          ruby-version: 2.6
+          bundler-cache: true
+      
+      - name: Build Jekyll Site
+        run: bundle exec jekyll build
+
+      - name: Pack Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: jekyll site
+          path: _site/

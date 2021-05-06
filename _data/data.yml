@@ -56,11 +56,17 @@ education:
       time: 2010 - 2016
       details: 
 experiences:
-    - role: Junior Backend Developer
-      time: 2019 - Present
+    - role: Backend Developer
+      time: 2021 - Present
       company: chargecloud GmbH, Köln, Deutschland
       details: |
-        Die chargecloud GmbH biete eine Softwarelösung für die Abrechnung von Ladeinfrastruktur für Elektroautos an. Gemeinsam mit einem Entwicklerteam entwickeln wir die Softwarelösung ständig weiter und passen sie immer wieder auf die neuen Marktgegebenheiten an.
+        Die chargecloud GmbH bietet eine Softwarelösung für die Abrechnung von Ladeinfrastruktur für Elektroautos an. Gemeinsam mit einem Entwicklerteam entwickeln wir die Softwarelösung ständig weiter und passen sie immer wieder auf die neuen Marktgegebenheiten an.
+
+    - role: Junior Backend Developer
+      time: 2019 - 2021
+      company: chargecloud GmbH, Köln, Deutschland
+      details: |
+        Die chargecloud GmbH bietet eine Softwarelösung für die Abrechnung von Ladeinfrastruktur für Elektroautos an. Gemeinsam mit einem Entwicklerteam entwickeln wir die Softwarelösung ständig weiter und passen sie immer wieder auf die neuen Marktgegebenheiten an.
 
     - role: Auszubildender Fachinformatiker - Fachrichtung Anwendungsentwicklung
       time: 2016 - 2019
@@ -121,25 +127,25 @@ skills:
 
     toolset:
       - name: PHP
-        level: 58%
+        level: 60%
+      
+      - name: CODEIGNITER
+        level: 23%
+      
+      - name: Laravel
+        level: 14%
+      
+      - name: Symfony
+        level: 7.5%
 
       - name: HTML
         level: 44%
 
       - name: JAVA
-        level: 39%
+        level: 35%
 
       - name: SQL
-        level: 25%
-
-      - name: CODEIGNITER
-        level: 23%
-
-      - name: WSC Plugins
-        level: 14%
-
-      - name: Angular
-        level: 10%
+        level: 30%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>
